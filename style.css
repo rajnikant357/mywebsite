@@ -1,4 +1,6 @@
+
 body {
+  font-family: "Poppins", sans-serif;
     padding: 0%;
     margin: 0%;
   }
@@ -38,6 +40,7 @@ body {
     cursor: default;
     transition: background-color 0.3s, transform 0.2s;
   }
+
   #info1 {
     color: #ffffff;
     border-radius: 20px;
@@ -57,11 +60,22 @@ body {
     padding: 5px;
     display: flex;
   }
-  #info1 a:hover {
+
+  #Details{
+    border: 0px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px ;
+  }
+  #Details:hover{
     border-radius: 15px;
-    transform: scale(1.03);
+    transform: scale(1.1);
     border: none;
-    cursor: default;
+    cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
   }
   #profile {
